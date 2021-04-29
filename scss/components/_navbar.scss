@@ -1,0 +1,29 @@
+#navbar-open {
+  background-color: #bdbdbd;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 2;
+}
+
+.equis {
+  left: 85%;
+  top: 2%;
+  height: 45px;
+  width: 45px;
+  border-radius: 2px;
+  position: relative;
+}
+
+.equis::after {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '\274c';
+  font-size: 110%;
+  color: black;
+  position: absolute;
+  text-align: center;
+  line-height: 45px;
+}
