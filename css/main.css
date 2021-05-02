@@ -38,4 +38,12 @@ body {
   text-align: center;
   line-height: 45px;
 }
+
+.cross {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  left: 85%;
+  top: 2%;
+  position: relative;
+}
 /*# sourceMappingURL=main.css.map */
