@@ -68,4 +68,12 @@ body {
           transform: rotate(45deg);
   position: absolute;
 }
+
+.cross4 {
+  left: 82%;
+  top: 18%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  position: absolute;
+}
 /*# sourceMappingURL=main.css.map */
