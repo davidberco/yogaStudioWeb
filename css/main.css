@@ -60,4 +60,12 @@ body {
   top: 2%;
   position: relative;
 }
+
+.cross3 {
+  left: 82%;
+  top: 13%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  position: absolute;
+}
 /*# sourceMappingURL=main.css.map */
