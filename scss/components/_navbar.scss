@@ -6,51 +6,37 @@
   z-index: 2;
 }
 
-.equis {
-  left: 85%;
-  top: 2%;
-  height: 45px;
-  width: 45px;
-  border-radius: 2px;
-  position: relative;
-}
+// .equis {
+//   left: 85%;
+//   top: 2%;
+//   height: 45px;
+//   width: 45px;
+//   border-radius: 2px;
+//   position: relative;
+// }
 
-.equis::after {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  content: '\274c';
-  font-size: 110%;
-  color: black;
-  position: absolute;
-  text-align: center;
-  line-height: 45px;
-}
-
-.cross {
-  transform: rotate(45deg);
-  left: 80%;
-  top: 2%;
-  position: absolute;
-}
+// .equis::after {
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   content: '\274c';
+//   font-size: 110%;
+//   color: black;
+//   position: absolute;
+//   text-align: center;
+//   line-height: 45px;
+// }
 
 .cross2 {
-  left: 84%;
-  top: 9%;
-  position: absolute;
-}
-
-.cross3 {
-  left: 82%;
-  top: 13%;
-  transform: rotate(45deg);
+  left: 89%;
+  top: 4%;
   position: absolute;
 }
 
 .cross4 {
-  left: 82%;
-  top: 18%;
+  left: 78%;
+  top: 3%;
   transform: rotate(45deg);
   position: absolute;
   color: #000000;
