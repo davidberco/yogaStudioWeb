@@ -42,23 +42,15 @@ body {
 .cross {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
-  left: 85%;
+  left: 80%;
   top: 2%;
-  position: relative;
-}
-
-.cross {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  left: 85%;
-  top: 2%;
-  position: relative;
+  position: absolute;
 }
 
 .cross2 {
-  left: 85%;
-  top: 2%;
-  position: relative;
+  left: 84%;
+  top: 9%;
+  position: absolute;
 }
 
 .cross3 {
@@ -75,5 +67,6 @@ body {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   position: absolute;
+  color: #000000;
 }
 /*# sourceMappingURL=main.css.map */
