@@ -1,9 +1,12 @@
-#navbar-open {
+.navbar-open {
   background-color: #bdbdbd;
   width: 100vw;
   height: 100vh;
   position: absolute;
   z-index: 2;
+}
+.navbar-close {
+  display: none;
 }
 
 // .equis {
@@ -28,15 +31,9 @@
 //   line-height: 45px;
 // }
 
-.cross2 {
-  left: 73%;
-  top: 4%;
-  position: absolute;
-}
-
-.cross4 {
-  left: 78%;
+#cross {
+  left: 85%;
   top: 3%;
-  // transform: rotate(45deg);
+  transform: rotate(45deg);
   position: absolute;
 }

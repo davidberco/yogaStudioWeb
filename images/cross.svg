@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="30" width="30">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="28" width="28">
   <g opacity="1">
-    <g opacity="1">
-      <g opacity="1">
-        <rect fill="rgb(0,0,0)" fill-opacity="1" opacity="1" x="0" y="13.00000000000005" width="30" height="4"/>
-      </g>
-      <g transform="translate(15, 15.00000000000005) rotate(90.00003218077504) translate(-15, -15.00000000000005)" opacity="1">
-        <rect fill="rgb(0,0,0)" fill-opacity="1" opacity="1" x="0" y="13.00000000000005" width="30" height="4"/>
-      </g>
+    <g transform="translate(14, 14) rotate(90.00003218077504) translate(-14, -14)" opacity="1">
+      <path fill="rgb(0,0,0)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M15 1.845454545454582L14.999999999999972 26.169281697341336L14.053977272727273 28L13 26.169281697341344L13 1.8454545454545621L14 0L15 1.845454545454582Z"/>
+    </g>
+    <g transform="translate(14, 14) rotate(180.00006436155007) translate(-14, -14)" opacity="1">
+      <path fill="rgb(0,0,0)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M15 1.845454545454582L14.999999999999972 26.169281697341336L14.053977272727273 28L13 26.169281697341344L13 1.8454545454545621L14 0L15 1.845454545454582Z"/>
     </g>
   </g>
 </svg>

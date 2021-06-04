@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 
-#navbar-open {
+.navbar-open {
   background-color: #bdbdbd;
   width: 100vw;
   height: 100vh;
@@ -17,15 +17,15 @@ body {
   z-index: 2;
 }
 
-.cross2 {
-  left: 73%;
-  top: 4%;
-  position: absolute;
+.navbar-close {
+  display: none;
 }
 
-.cross4 {
-  left: 78%;
+#cross {
+  left: 85%;
   top: 3%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
   position: absolute;
 }
 /*# sourceMappingURL=main.css.map */
