@@ -5,6 +5,7 @@
   position: absolute;
   z-index: 2;
 }
+
 .navbar-close {
   display: none;
 }
@@ -36,4 +37,15 @@
   top: 3%;
   transform: rotate(45deg);
   position: absolute;
+}
+
+#navbaricon {
+  left: 85%;
+  top: 3%;
+  position: absolute;
+}
+
+.nav-items {
+  padding: 60px 60px 60px;
+  list-style: none;
 }
