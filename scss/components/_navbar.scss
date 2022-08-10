@@ -1,51 +1,93 @@
-.navbar-open {
-  background-color: #bdbdbd;
+// Menu open when you click on the cross
+.menu-open-container {
+  background-color: #6b752f;
   width: 100vw;
   height: 100vh;
   position: absolute;
-  z-index: 2;
-}
-
-.navbar-close {
+  z-index: 3;
   display: none;
 }
 
-// .equis {
-//   left: 85%;
-//   top: 2%;
-//   height: 45px;
-//   width: 45px;
-//   border-radius: 2px;
-//   position: relative;
-// }
-
-// .equis::after {
-//   top: 0;
-//   bottom: 0;
-//   left: 0;
-//   right: 0;
-//   content: '\274c';
-//   font-size: 110%;
-//   color: black;
-//   position: absolute;
-//   text-align: center;
-//   line-height: 45px;
-// }
+.subGridForCrossicon {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  justify-content: space-around;
+  height: 10vh;
+  width: 100vw;
+}
+.item3 {
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+}
 
 #cross {
-  left: 85%;
-  top: 3%;
-  transform: rotate(45deg);
-  position: absolute;
+  left: 75%;
+  top: 3%; 
+}
+#cross:hover {
+  cursor: pointer;
 }
 
-#navbaricon {
-  left: 85%;
-  top: 3%;
-  position: absolute;
-}
-
-.nav-items {
-  padding: 60px 60px 60px;
+.menu-items  {
+  color: #000000;
+  text-align: center;
+  font-size: 21px;
+  line-height: 25px;
   list-style: none;
+  display: block;
+  position: relative;
+  align-items: center;
+  padding: 2em;
+  li {
+    padding: 1.2em;
+    // border: #000000 0.5px;
+    // border-style: none none solid;
+    a:link {
+      text-decoration: none;
+    }
+    a:visited {
+      text-decoration: none;
+      color: inherit;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+  }
+  li:hover {
+    font-weight: 600;
+    cursor: pointer;
+  }
+}
+
+// Navigation Bar
+
+.navbar-container {
+  position: fixed;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  justify-content: space-around;
+  //style of the navbar
+  background-color: #fab459e0;
+  // height: 10vh;
+  width: 100vw;
+  box-shadow: 0px 4px 6px #9691915d
+}
+
+.siteName {
+  align-self: center;
+  text-align: center;
+  font-weight: 800;
+  color: black;
+  justify-content: center;
+  padding: 1em;
+}
+
+.navbarIcon {
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+
 }

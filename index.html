@@ -4,36 +4,118 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Siri Prem Website</title>
-    <link rel="stylesheet" href="/css/main.css" />
-    <link rel="icon" type="image/svg" href="/images/logoSiriPrem.svg"
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="icon" type="image/svg" href="/images/logoSiriPrem.svg" />
   </head>
+
   <body>
     <!-- navigation bar-->
-    <div class="navbar-open">
-      <!-- image as a div -->
-      <!-- <div class="equis"></div> -->
-      <!-- image tag with a data:image  source -->
-      <!-- <img
-        class="cross2"
-        src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='https://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23000000%3B stroke-width: 2%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='20' y2='20' /%3E%3Cline x1='20' y1='0' x2='0' y2='20' /%3E%3C/svg%3E"
-        alt="cross"
-      /> -->
-
-      <!-- figure with img tag 2 -->
-      <img src="/images/cross.svg" id="cross" />
-
-      <ul class="nav-items">
-        <li>Home</li>
-        <li>Who we are</li>
-        <li>Contact</li>
-      </ul>
+    <div class="navbar-container">
+      <div class="siteName">
+        <p>SiriPrem</p>
+      </div>
+      <div class=""></div>
+      <div class="navbarIcon" id="hambNavBarIcon" onclick="openMenu()">
+        <img src="/images/navBarIcon.svg" id="navbarFigure" />
+      </div>
+      <div class="menu-open-container" id="menuOpenContainer">
+        <div class="subGridForCrossicon">
+          <div class="item1"></div>
+          <div class="item2"></div>
+          <div class="item3" onclick="closeMenu()">
+            <img src="/images/cross.svg" id="cross" />
+          </div>
+        </div>
+        <ul class="menu-items">
+          <li>
+            <a href="#homepage" onclick="closeMenu()">Home</a>
+          </li>
+          <li>
+            <a href="#title-what-is-yoga" onclick="closeMenu()">What is Yoga</a>
+          </li>
+          <li>
+            <a href="#" onclick="closeMenu()">Our Classes</a>
+          </li>
+          <li>
+            <a href="#" onclick="closeMenu()">Who We Are</a>
+          </li>
+          <li>
+            <a href="#" onclick="closeMenu()">Contact Us</a>
+          </li>
+        </ul>
+      </div>
     </div>
 
-    <div class="navbar">
-      <img src="/images/navBarIcon.svg" id="navbaricon" />
-    </div>
+    <!-- homePage -->
+    <section class="homepage" id="homepage">
+      <div class="bg-header"></div>
+      <div class="logotype-container">
+        <img
+          src="/images/logoSiriPrem.svg"
+          alt="logo-siri-prem"
+          class="logo-siri-prem"
+        />
+      </div>
+      <div class="welcomeTitle">
+        <h1>Welcome</h1>
+        <p>
+          My father is no different than any powerful man, any man with power,
+          like a president or senator. Why did you go to the police? Why didn't
+          you come to me first?
+        </p>
+      </div>
+      <div class="arrow1">
+        <a href="#title-what-is-yoga">
+          <img src="/images/Arrow 1.svg" alt="arrow" class="" />
+        </a>
+      </div>
+    </section>
 
-    <!-- <img src="/images/logoSiriPrem.svg" alt="logo-siri-prem" /> -->
+    <!-- What is Yoga -->
+    <section class="section-what-is-yoga" id="title-what-is-yoga">
+      <div class="title-what-is-yoga">
+        <h1>What is Yoga?</h1>
+      </div>
+      <div class="text-yoga-1">
+        <p>
+          My father is no different than any powerful man, any man with power,
+          like a president or senator. Very well. You want to do business with
+          me. I will do business with you. You talk about vengeance.
+        </p>
+      </div>
+      <div class="image1">
+        <img src="/images/undraw_handcrafts_cat.svg" alt="" />
+      </div>
+      <div class="text-yoga-2">
+        <p>
+          And one more thing. Don't you contact me again, ever. From now on, you
+          deal with Turnbull. Only don't tell me you're innocent. Because it
+          insults my intelligence and makes me very angry. We're both.
+        </p>
+      </div>
+      <div class="image2"></div>
+      <div class="text-yoga-3">
+        <p>
+          Not while I'm alive. Do me this favor. I won't forget it. Ask your
+          friends in the neighborhood about me. They'll tell you I know how to
+          return a favor. We're both part of the same hypocrisy, senator, but
+          never think it applies to my family
+        </p>
+      </div>
+      <div class="image3"></div>
+      <div class="text-yoga-4">
+        <p>
+          What's the matter with you, huh? What am I going to do? Am I going to
+          make that baby an orphan before he's born? Never hate your enemies. It
+          affects your judgment. It's a Sicilian message. It means Luca Brasi
+          sleeps with the fishes. It's an old habit. I spent my whole life
+          trying not to be careless. Women and children can afford to be
+          careless, but not men. This one time, this one time I'll let you ask
+          me about my affairs.
+        </p>
+      </div>
+      <div class="image4"></div>
+    </section>
 
     <script src="/js/main.js"></script>
   </body>

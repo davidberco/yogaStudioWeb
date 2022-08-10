@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap");
+body {
+  background-color: #f3f3eb;
+  font-family: "Lato", sans-serif;
+}
+
+.homepage {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[11];
+      grid-template-rows: repeat(11, 1fr);
+  -ms-grid-columns: (1fr)[11];
+      grid-template-columns: repeat(11, 1fr);
+}
+
+.bg-header {
+  background-clip: border-box;
+  background-image: url("/images/yoga-bg.jpg");
+  background-origin: center;
+  background-position: top;
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-attachment: inherit;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 6;
+  grid-row: 1 / 7;
+  grid-column: 1 / -1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bg-header p {
+  color: #fff;
+  opacity: 0.35;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.logotype-container {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 3;
+  grid-row: 5 / 8;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 5;
+  grid-column: 4 / 9;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logotype-container .logo-siri-prem {
+  height: 100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.logotype-container p {
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.welcomeTitle {
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 3;
+  grid-row: 8 / 11;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 9;
+  grid-column: 2 / 11;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.welcomeTitle h1 {
+  text-align: center;
+  margin: 0.5em;
+}
+
+.welcomeTitle p {
+  margin: 0.5rem;
+}
+
+.arrow1 {
+  grid-row: 11 / auto;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 1;
+  grid-column: 6 / 7;
+  place-self: top center;
+}
+
+.section-what-is-yoga {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(auto, 1fr))[11];
+      grid-template-columns: repeat(11, minmax(auto, 1fr));
+  grid-auto-rows: minmax(60px, auto);
+  grid-auto-flow: dense;
+}
+
+.title-what-is-yoga {
+  grid-row: 2 / auto;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 9;
+  grid-column: 2 / 11;
+  place-self: top center;
+}
+
+.title-what-is-yoga h1 {
+  text-align: center;
+}
+
+.text-yoga-1 {
+  grid-row: 3 / auto;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 9;
+  grid-column: 2 / 11;
+  text-align: justify;
+}
+
+.image1 {
+  grid-row: 4 / auto;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 3;
+  grid-column: 5 / 8;
+}
+
+.image1 img {
+  width: 100%;
+}
+
+.text-yoga-2 {
+  grid-row: 5 / auto;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 9;
+  grid-column: 2 / 11;
+  text-align: justify;
+}
+
+.image2 {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 2;
+  grid-row: 6 / 8;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 9;
+  grid-column: 2 / 11;
+  background-color: #c4c4c4;
+}
+
+.text-yoga-3 {
+  grid-row: 8 / auto;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 9;
+  grid-column: 2 / 11;
+  text-align: justify;
+}
+
+.image3 {
+  grid-row: 9 / auto;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 9;
+  grid-column: 2 / 11;
+  background-color: #b01b1b;
+}
+
+.text-yoga-4 {
+  grid-row: 10 / auto;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 9;
+  grid-column: 2 / 11;
+  text-align: justify;
+}
+
+.image4 {
+  grid-row: 11 / auto;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 9;
+  grid-column: 2 / 11;
+  background-color: #09c55a;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.menu-open-container {
+  background-color: #6b752f;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 3;
+  display: none;
+}
+
+.subGridForCrossicon {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr 1fr;
+      grid-template-columns: 1fr 3fr 1fr;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 10vh;
+  width: 100vw;
+}
+
+.item3 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#cross {
+  left: 75%;
+  top: 3%;
+}
+
+#cross:hover {
+  cursor: pointer;
+}
+
+.menu-items {
+  color: #000000;
+  text-align: center;
+  font-size: 21px;
+  line-height: 25px;
+  list-style: none;
+  display: block;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2em;
+}
+
+.menu-items li {
+  padding: 1.2em;
+}
+
+.menu-items li a:link {
+  text-decoration: none;
+}
+
+.menu-items li a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-items li a:hover {
+  text-decoration: none;
+}
+
+.menu-items li:hover {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navbar-container {
+  position: fixed;
+  z-index: 2;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr 1fr;
+      grid-template-columns: 1fr 3fr 1fr;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #fab459e0;
+  width: 100vw;
+  -webkit-box-shadow: 0px 4px 6px #9691915d;
+          box-shadow: 0px 4px 6px #9691915d;
+}
+
+.siteName {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  font-weight: 800;
+  color: black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1em;
+}
+
+.navbarIcon {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
