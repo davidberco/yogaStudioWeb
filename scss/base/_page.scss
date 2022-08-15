@@ -82,6 +82,7 @@ body {
 //layout for What is Yoga section
 
 .section-what-is-yoga {
+  padding-bottom: 1em;
   display: grid;
   // height: 100vh;
   grid-template-columns: repeat(11, minmax(auto, 1fr));
@@ -107,24 +108,43 @@ body {
 
 .image1 {
   grid-row: 4 / auto;
-  grid-column: 5 / 8;
-  // height: 25vh;
+  grid-column: 4 / 9;
+  padding: 1em 0 1em 0;
   img {
     width: 100%;
+    border-radius: 6%;
+    box-shadow: 1.3px 1.3px 1.9px rgba(0, 0, 0, 0.1),
+      2.9px 2.9px 4.3px rgba(0, 0, 0, 0.083),
+      5.2px 5.2px 7.7px rgba(0, 0, 0, 0.073),
+      8.4px 8.4px 12.8px rgba(0, 0, 0, 0.065),
+      13.4px 13.4px 21.2px rgba(0, 0, 0, 0.057),
+      22.7px 22.7px 37px rgba(0, 0, 0, 0.045),
+      48px 48px 80px rgba(0, 0, 0, 0.026);
   }
 }
 
 .text-yoga-2 {
   grid-row: 5 / auto;
   grid-column: 2 / 11;
-  text-align: justify;
+  text-align: center;
 
 }
 
 .image2 {
   grid-row: 6 / 8;
   grid-column: 2 / 11;
-  background-color: #c4c4c4;
+  padding: 1em 0 1em 0;
+  img {
+    width: 100%;
+    border-radius: 6%;
+    box-shadow: 1.3px 1.3px 1.9px rgba(0, 0, 0, 0.1),
+      2.9px 2.9px 4.3px rgba(0, 0, 0, 0.083),
+      5.2px 5.2px 7.7px rgba(0, 0, 0, 0.073),
+      8.4px 8.4px 12.8px rgba(0, 0, 0, 0.065),
+      13.4px 13.4px 21.2px rgba(0, 0, 0, 0.057),
+      22.7px 22.7px 37px rgba(0, 0, 0, 0.045),
+      48px 48px 80px rgba(0, 0, 0, 0.026);
+  }
 }
 
 .text-yoga-3 {
@@ -136,7 +156,18 @@ body {
 .image3 {
   grid-row: 9 / auto;
   grid-column: 2 / 11;
-  background-color: #b01b1b;
+  padding: 1em 0 1em 0;
+  img {
+    width: 100%;
+    border-radius: 6%;
+    box-shadow: 1.3px 1.3px 1.9px rgba(0, 0, 0, 0.1),
+      2.9px 2.9px 4.3px rgba(0, 0, 0, 0.083),
+      5.2px 5.2px 7.7px rgba(0, 0, 0, 0.073),
+      8.4px 8.4px 12.8px rgba(0, 0, 0, 0.065),
+      13.4px 13.4px 21.2px rgba(0, 0, 0, 0.057),
+      22.7px 22.7px 37px rgba(0, 0, 0, 0.045),
+      48px 48px 80px rgba(0, 0, 0, 0.026);
+  }
 }
 
 .text-yoga-4 {
@@ -148,5 +179,16 @@ body {
 .image4 {
   grid-row: 11 / auto;
   grid-column: 2 / 11;
-  background-color: #09c55a;
+  padding: 1em 0 1em 0;
+  img {
+    width: 100%;
+    border-radius: 6%;
+    box-shadow: 1.3px 1.3px 1.9px rgba(0, 0, 0, 0.1),
+      2.9px 2.9px 4.3px rgba(0, 0, 0, 0.083),
+      5.2px 5.2px 7.7px rgba(0, 0, 0, 0.073),
+      8.4px 8.4px 12.8px rgba(0, 0, 0, 0.065),
+      13.4px 13.4px 21.2px rgba(0, 0, 0, 0.057),
+      22.7px 22.7px 37px rgba(0, 0, 0, 0.045),
+      48px 48px 80px rgba(0, 0, 0, 0.026);
+  }
 }

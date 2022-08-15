@@ -1,0 +1,32 @@
+#footer {
+  position: relative;
+  background-color: map-get($palette, light-grey);
+  border-top: 1px solid map-get($palette, dark-orange );
+  h5 {
+    color: grey;
+    text-align: center;
+    padding-top: 1em;
+  }
+  h6 {
+    color: grey;
+    padding: 1em;
+    text-align: center;
+  }
+}
+/// social icons
+
+.container-social-media-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row nowrap;
+  padding: 1em;
+}
+
+.social-icon {
+  height: 35px;
+  width:  35px;
+  img {
+    height: 35px;
+  }
+}
