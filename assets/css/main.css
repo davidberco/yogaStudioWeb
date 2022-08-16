@@ -636,11 +636,6 @@ body {
 }
 
 .menu-items {
-  color: #000000;
-  text-align: center;
-  font-size: 21px;
-  line-height: 25px;
-  list-style: none;
   display: block;
   position: relative;
   -webkit-box-align: center;
@@ -651,6 +646,11 @@ body {
 
 .menu-items li {
   padding: 1.2em;
+  color: #000000;
+  text-align: center;
+  font-size: 21px;
+  line-height: 25px;
+  list-style: none;
 }
 
 .menu-items li a:link {
