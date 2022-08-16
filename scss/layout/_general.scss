@@ -1,0 +1,54 @@
+// Breakpoints
+
+// mobile view Standard Iphone 7-8 models
+
+@media screen and (max-width: 600px) {
+  .footer-container {
+    padding: 0 3em;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .footer-container {
+    padding: 0 10em;
+  }
+  .text-yoga-1 {
+    grid-row: 3 / auto;
+    grid-column: 2 / 7;
+    text-align: justify;
+    align-self: center;
+  }
+  
+  .image1 {
+    grid-row: 3 / auto;
+    grid-column: 8 / 11;
+    padding: 1em 0 1em 0;
+  }
+
+  .text-yoga-3 {
+    grid-row: 6 / 8;
+    grid-column: 7 / 11;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+  }
+ 
+  
+  .image2 {
+    grid-row: 6 / 8;
+    grid-column: 2 / 6;
+    padding: 1em 0 1em 0;
+  }
+
+  .image3 {
+    grid-column: 7 / 11;
+    padding: 1em 0 1em 0;
+  }
+  .text-yoga-4 {
+    grid-row: 9 / auto;
+    grid-column: 2 / 6;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+  }
+}

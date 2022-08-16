@@ -2,19 +2,22 @@
   position: relative;
   background-color: map-get($palette, light-grey);
   border-top: 1px solid map-get($palette, dark-orange );
-  h5 {
-    color: grey;
+  p {
     text-align: center;
+    font-weight: 600;
     padding-top: 1em;
   }
   h6 {
-    color: grey;
     padding: 1em;
     text-align: center;
   }
 }
-/// social icons
 
+.footer-container {
+  padding: 0 1em;
+}
+
+/// social icons
 .container-social-media-icons {
   display: flex;
   justify-content: space-evenly;
@@ -24,9 +27,9 @@
 }
 
 .social-icon {
-  height: 35px;
-  width:  35px;
+  height: 30px;
+  width:  30px;
   img {
-    height: 35px;
+    height: 30px;
   }
 }
